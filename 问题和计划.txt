@@ -1,0 +1,8 @@
+1、偶尔会跑崩（**解决，BandedFourierLayer参数初始化问题）
+2、electricity数据集当预测长度为336和720时会崩
+3、怎么让对比学习真正有效（FNO等，感觉不是太靠谱）
+4、要不要对处理过后的样本做transform（可以是一个消融实验）
+5、BandedFourierLayer网络结构可不可以化简
+6、代码中负样本是怎么选取的，_momentum_update_key_encoder和_dequeue_and_enqueue具体是干啥的？
+7、文章中的T-SNE图怎么画的？4.4消融实验中的cost*是咋做的？
+8、给文章起个好名字
